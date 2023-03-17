@@ -1,0 +1,9 @@
+[1] Config.pm:306> INFO - This is Biber 2.18
+[1] Config.pm:309> INFO - Logfile is 'main.blg'
+[318] biber-MSWIN64:340> INFO - === 
+[415] Biber.pm:418> INFO - Reading 'main.bcf'
+[917] Biber.pm:978> INFO - Found 0 citekeys in bib section 0
+[967] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[968] bbl.pm:757> INFO - Output to main.bbl
+[968] Biber.pm:130> WARN - The file 'main.bcf' does not contain any citations!
+[969] Biber.pm:132> INFO - WARNINGS: 1
