@@ -1,0 +1,14 @@
+\begin{pycode}	
+from datetime import timedelta, datetime
+dat = str(data_begin)
+# Комментарий
+dw = datetime.strptime(dat, "%d.%m.%Y")
+in_y_days = dw + timedelta(7)
+mid_days = dw + timedelta(20)
+data = in_y_days.strftime("%d.%m.%Y")
+middata = mid_days.strftime("%d.%m.%Y")
+
+\end{pycode}
+%\py{dat}
+%\py{data}
+%\py{middata}
