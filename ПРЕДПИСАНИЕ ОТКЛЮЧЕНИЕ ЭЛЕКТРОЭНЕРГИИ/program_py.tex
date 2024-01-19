@@ -1,0 +1,43 @@
+\begin{pycode}	
+from datetime import timedelta, datetime
+
+dat = str(data_begin)   # Дата уведомления
+dw = datetime.strptime(dat, "%d.%m.%Y")
+mid_days = dw + timedelta(20)
+end_days = dw + timedelta(23)
+# data_preduprezd = mid_days.strftime("%d.%m.%Y")
+# data_ispolnenya = end_days.strftime("%d.%m.%Y")
+# data = end_days.strftime("%d.%m.%Y")     
+middata = mid_days.strftime("%d.%m.%Y")   # Дата приостановленя
+enddata = end_days.strftime("%d.%m.%Y")   # Дата отключения
+\end{pycode}
+%\py{dat}\\
+%\py{data_ispolnenya}\\
+%\py{data_preduprezd}\\
+%
+%
+%
+%\begin{Verbatim}[commandchars=\\\{\},
+%	mathescape]
+%	Verbatim $x^2 + f_\text{sub}(x) = g''(x)$
+%\end{Verbatim}
+%
+%\begin{Verbatim}[numbers=left,
+%	highlightlines={1, 3-4}]
+%	First line
+%	Second line
+%	Third line
+%	Fourth line
+%	Fifth line
+%\end{Verbatim}
+%
+%
+%\begin{pycode}
+%import os
+%
+%with open('sometexfile.tex', 'w', encoding='utf-8') as file:
+%    file.write('\\documentclass{article}\n')
+%    file.write('\\begin{document}\n')
+%    file.write('Hello Palo Alto!\n')
+%    file.write('\\end{document}\n')
+%\end{pycode}
